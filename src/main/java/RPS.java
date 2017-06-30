@@ -5,7 +5,7 @@ public class RPS {
   private String mComputerChoice;
   private String mPlayerChoice;
 
-  RPS(String playerChoice) {
+  public String RPS(String playerChoice) {
     mComputerChoice = "";
     mPlayerChoice = playerChoice;
   }
